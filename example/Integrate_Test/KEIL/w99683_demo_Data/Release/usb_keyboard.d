@@ -1,0 +1,10 @@
+.\w99683_demo_data\release\usb_keyboard.o: ..\usb_keyboard.c
+.\w99683_demo_data\release\usb_keyboard.o: d:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\w99683_demo_data\release\usb_keyboard.o: d:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\w99683_demo_data\release\usb_keyboard.o: ..\..\..\..\SYSLIB\Lib\wbtypes.h
+.\w99683_demo_data\release\usb_keyboard.o: ..\..\..\..\SYSLIB\Lib\wblib.h
+.\w99683_demo_data\release\usb_keyboard.o: ..\..\..\..\SYSLIB\Lib\W55FA93_reg.h
+.\w99683_demo_data\release\usb_keyboard.o: ..\..\..\..\SYSLIB\Lib\wberrcode.h
+.\w99683_demo_data\release\usb_keyboard.o: ..\..\..\..\SYSLIB\Lib\wbio.h
+.\w99683_demo_data\release\usb_keyboard.o: ..\usbkbd.h
+.\w99683_demo_data\release\usb_keyboard.o: ..\..\..\lib\usb.h

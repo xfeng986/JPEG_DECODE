@@ -1,0 +1,12 @@
+.\w99683_demo_data\release\w99683.o: ..\W99683.c
+.\w99683_demo_data\release\w99683.o: d:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\w99683_demo_data\release\w99683.o: d:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\w99683_demo_data\release\w99683.o: ..\..\..\..\SYSLIB\Lib\wbtypes.h
+.\w99683_demo_data\release\w99683.o: ..\..\..\..\SYSLIB\Lib\wblib.h
+.\w99683_demo_data\release\w99683.o: ..\..\..\..\SYSLIB\Lib\W55FA93_reg.h
+.\w99683_demo_data\release\w99683.o: ..\..\..\..\SYSLIB\Lib\wberrcode.h
+.\w99683_demo_data\release\w99683.o: ..\..\..\..\SYSLIB\Lib\wbio.h
+.\w99683_demo_data\release\w99683.o: ..\..\..\lib\usb.h
+.\w99683_demo_data\release\w99683.o: ..\usbvideo.h
+.\w99683_demo_data\release\w99683.o: ..\w99683ini.h
+.\w99683_demo_data\release\w99683.o: ..\w99683.h

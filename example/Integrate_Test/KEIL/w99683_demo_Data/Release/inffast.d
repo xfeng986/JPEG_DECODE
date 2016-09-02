@@ -1,0 +1,11 @@
+.\w99683_demo_data\release\inffast.o: ..\ZLIB\inffast.c
+.\w99683_demo_data\release\inffast.o: ..\ZLIB\zutil.h
+.\w99683_demo_data\release\inffast.o: ..\ZLIB\zlib.h
+.\w99683_demo_data\release\inffast.o: ..\ZLIB\zconf.h
+.\w99683_demo_data\release\inffast.o: d:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\w99683_demo_data\release\inffast.o: d:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\w99683_demo_data\release\inffast.o: d:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\w99683_demo_data\release\inffast.o: d:\Keil\ARM\ARMCC\bin\..\include\errno.h
+.\w99683_demo_data\release\inffast.o: ..\ZLIB\inftrees.h
+.\w99683_demo_data\release\inffast.o: ..\ZLIB\inflate.h
+.\w99683_demo_data\release\inffast.o: ..\ZLIB\inffast.h

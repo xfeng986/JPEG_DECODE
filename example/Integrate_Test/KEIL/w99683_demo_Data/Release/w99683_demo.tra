@@ -1,0 +1,26 @@
+*** Creating Trace Output File '.\w99683_demo_Data\Release\w99683_demo.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\w99683_demo_data\release\main.o"'
+### List of Objects: adding '".\w99683_demo_data\release\standalone.o"'
+### List of Objects: adding '".\w99683_demo_data\release\usb_keyboard.o"'
+### List of Objects: adding '".\w99683_demo_data\release\w99683.o"'
+### List of Objects: adding '".\w99683_demo_data\release\wb_init.o"'
+### List of Objects: adding '"..\..\..\lib\W55FA93_usbh.lib"'
+### List of Objects: adding '"..\..\..\..\SYSLIB\Lib\W55FA93_syslib.lib"'
+### List of Objects: adding '"..\..\..\..\NVTFAT\lib\W55FA93_nvtfat.lib"'
+### ADS-LD Command completed:
+--cpu ARM926EJ-S ".\w99683_demo_data\release\main.o" ".\w99683_demo_data\release\standalone.o" ".\w99683_demo_data\release\usb_keyboard.o" ".\w99683_demo_data\release\w99683.o" ".\w99683_demo_data\release\wb_init.o" D:\Xxm\chengxu\N32905_Non-OS_KEIL\USB_Core\lib\W55FA93_usbh.lib D:\Xxm\chengxu\N32905_Non-OS_KEIL\SYSLIB\Lib\W55FA93_syslib.lib D:\Xxm\chengxu\N32905_Non-OS_KEIL\NVTFAT\lib\W55FA93_nvtfat.lib --strict --scatter "..\..\..\..\N32905\N32905.sct" 
+--entry 0 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\w99683_demo_Data\Release\w99683_demo.map" -o .\w99683_demo_Data\Release\w99683_demo.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\w99683_demo_Data\Release\w99683_demo.axf'
+### ADS-LD Command File: '.\w99683_demo_Data\Release\w99683_demo.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\w99683_demo_Data\Release\w99683_demo.lnp', Handle=0x000002A0
+### Writing '.lnp' file
+### ADS-LD Command file '.\w99683_demo_Data\Release\w99683_demo.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

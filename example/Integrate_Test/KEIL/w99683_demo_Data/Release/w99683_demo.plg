@@ -1,0 +1,237 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Xxm\chengxu\N32905_Non-OS_KEIL\USB_Core\example\Integrate_Test\KEIL\w99683_demo.uvproj
+Project File Date:  03/06/2014
+
+<h2>Output:</h2>
+Rebuild target 'Release'
+compiling main.c...
+..\..\..\..\SYSLIB\Lib\wblib.h(377): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(390): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(391): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(405): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(409): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(412): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(413): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(414): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(430): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat_fat.h(234): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat_fat.h(235): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat.h(519): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat.h(529): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat.h(611): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat.h(620): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat.h(623): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat.h(624): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(765): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(766): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(767): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(768): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(769): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(773): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(785): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(808): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(809): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(846): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(847): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(869): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(870): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(83): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(84): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(85): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(86): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(87): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(88): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(89): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbkbd.h(47): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbkbd.h(52): warning:  #1-D: last line of file ends without a newline
+..\main.c(63): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\main.c(159): warning:  #550-D: variable "szFNameDst" was set but never used
+..\main.c(362): warning:  #260-D: explicit type is missing ("int" assumed)
+compiling standalone.c...
+compiling usb_keyboard.c...
+..\..\..\..\SYSLIB\Lib\wblib.h(377): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(390): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(391): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(405): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(409): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(412): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(413): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(414): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(430): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(765): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(766): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(767): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(768): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(769): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(773): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(785): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(808): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(809): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(846): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(847): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(869): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(870): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbkbd.h(47): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbkbd.h(52): warning:  #1-D: last line of file ends without a newline
+compiling W99683.c...
+..\..\..\..\SYSLIB\Lib\wblib.h(377): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(390): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(391): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(405): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(409): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(412): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(413): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(414): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(430): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(765): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(766): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(767): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(768): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(769): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(773): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(785): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(808): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(809): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(846): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(847): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(869): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(870): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(83): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(84): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(85): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(86): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(87): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(88): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(89): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\W99683.c(283): warning:  #260-D: explicit type is missing ("int" assumed)
+..\W99683.c(283): warning:  #191-D: type qualifier is meaningless on cast type
+..\W99683.c(283): warning:  #260-D: explicit type is missing ("int" assumed)
+..\W99683.c(283): warning:  #191-D: type qualifier is meaningless on cast type
+..\W99683.c(272): warning:  #550-D: variable "t0" was set but never used
+..\W99683.c(618): warning:  #550-D: variable "indexH" was set but never used
+..\W99683.c(1120): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\W99683.c(1138): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+assembling wb_init.s...
+..\wb_init.s(114): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+linking...
+Program Size: Code=147044 RO-data=2080 RW-data=9084 ZI-data=1001568  
+User command #1: fromelf.exe --bin --output "D:\Xxm\chengxu\N32905_Non-OS_KEIL\USB_Core\example\Integrate_Test\KEIL\w99683_demo_Data\Release\w99683_demo.bin" "D:\Xxm\chengxu\N32905_Non-OS_KEIL\USB_Core\example\Integrate_Test\KEIL\w99683_demo_Data\Release\w99683_demo.axf"
+".\w99683_demo_Data\Release\w99683_demo.axf" - 0 Error(s), 104 Warning(s).
+Rebuild target 'Release'
+compiling main.c...
+..\..\..\..\SYSLIB\Lib\wblib.h(377): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(390): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(391): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(405): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(409): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(412): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(413): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(414): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(430): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat_fat.h(234): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat_fat.h(235): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat.h(519): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat.h(529): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat.h(611): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat.h(620): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat.h(623): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\NVTFAT\lib\nvtfat.h(624): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(765): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(766): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(767): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(768): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(769): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(773): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(785): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(808): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(809): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(846): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(847): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(869): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(870): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(83): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(84): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(85): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(86): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(87): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(88): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(89): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbkbd.h(47): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbkbd.h(52): warning:  #1-D: last line of file ends without a newline
+..\main.c(63): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\main.c(159): warning:  #550-D: variable "szFNameDst" was set but never used
+..\main.c(362): warning:  #260-D: explicit type is missing ("int" assumed)
+compiling standalone.c...
+compiling usb_keyboard.c...
+..\..\..\..\SYSLIB\Lib\wblib.h(377): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(390): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(391): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(405): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(409): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(412): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(413): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(414): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(430): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(765): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(766): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(767): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(768): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(769): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(773): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(785): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(808): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(809): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(846): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(847): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(869): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(870): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbkbd.h(47): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbkbd.h(52): warning:  #1-D: last line of file ends without a newline
+compiling W99683.c...
+..\..\..\..\SYSLIB\Lib\wblib.h(377): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(390): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(391): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(405): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(409): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(412): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(413): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(414): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\..\SYSLIB\Lib\wblib.h(430): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(765): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(766): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(767): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(768): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(769): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(773): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(785): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(808): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(809): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(846): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(847): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(869): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\..\..\lib\usb.h(870): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(83): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(84): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(85): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(86): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(87): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(88): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\usbvideo.h(89): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\W99683.c(283): warning:  #260-D: explicit type is missing ("int" assumed)
+..\W99683.c(283): warning:  #191-D: type qualifier is meaningless on cast type
+..\W99683.c(283): warning:  #260-D: explicit type is missing ("int" assumed)
+..\W99683.c(283): warning:  #191-D: type qualifier is meaningless on cast type
+..\W99683.c(272): warning:  #550-D: variable "t0" was set but never used
+..\W99683.c(618): warning:  #550-D: variable "indexH" was set but never used
+..\W99683.c(1120): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+..\W99683.c(1138): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+assembling wb_init.s...
+..\wb_init.s(114): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+linking...
+Program Size: Code=146856 RO-data=2004 RW-data=9084 ZI-data=985448  
+User command #1: fromelf.exe --bin --output "D:\Xxm\chengxu\N32905_Non-OS_KEIL\USB_Core\example\Integrate_Test\KEIL\w99683_demo_Data\Release\w99683_demo.bin" "D:\Xxm\chengxu\N32905_Non-OS_KEIL\USB_Core\example\Integrate_Test\KEIL\w99683_demo_Data\Release\w99683_demo.axf"
+".\w99683_demo_Data\Release\w99683_demo.axf" - 0 Error(s), 104 Warning(s).

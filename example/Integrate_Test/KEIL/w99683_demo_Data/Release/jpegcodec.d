@@ -1,0 +1,11 @@
+.\w99683_demo_data\release\jpegcodec.o: ..\jpegcodec.c
+.\w99683_demo_data\release\jpegcodec.o: d:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\w99683_demo_data\release\jpegcodec.o: d:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\w99683_demo_data\release\jpegcodec.o: d:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\w99683_demo_data\release\jpegcodec.o: ..\..\..\..\SYSLIB\Lib\wbio.h
+.\w99683_demo_data\release\jpegcodec.o: ..\..\..\..\SYSLIB\Lib\wbtypes.h
+.\w99683_demo_data\release\jpegcodec.o: ..\..\..\..\SYSLIB\Lib\wblib.h
+.\w99683_demo_data\release\jpegcodec.o: ..\..\..\..\SYSLIB\Lib\W55FA93_reg.h
+.\w99683_demo_data\release\jpegcodec.o: ..\..\..\..\SYSLIB\Lib\wberrcode.h
+.\w99683_demo_data\release\jpegcodec.o: ..\jpegcodec.h
+.\w99683_demo_data\release\jpegcodec.o: ..\jpeg.h

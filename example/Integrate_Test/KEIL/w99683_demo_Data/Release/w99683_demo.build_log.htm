@@ -1,0 +1,649 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\工具\MDK905-EK\MDK905-EK\MDK905-EK 1#2019.0A\CN\softpack\N32905_Non-OS_KEIL_No_Support\N32905_Non-OS_KEIL_320240\USB_Core\example\Integrate_Test\KEIL\w99683_demo.uvproj
+Project File Date:  08/02/2016
+
+<h2>Output:</h2>
+Build target 'Release'
+linking...
+Program Size: Code=162208 RO-data=1856 RW-data=9376 ZI-data=10439904  
+After Build - User command #1: fromelf.exe --bin --output "D:\工具\MDK905-EK\MDK905-EK\MDK905-EK 1#2019.0A\CN\softpack\N32905_Non-OS_KEIL_No_Support\N32905_Non-OS_KEIL_320240\USB_Core\example\Integrate_Test\KEIL\w99683_demo_Data\Release\w99683_demo.bin" "D:\工具\MDK905-EK\MDK905-EK\MDK905-EK 1#2019.0A\CN\softpack\N32905_Non-OS_KEIL_No_Support\N32905_Non-OS_KEIL_320240\USB_Core\example\Integrate_Test\KEIL\w99683_demo_Data\Release\w99683_demo.axf"
+".\w99683_demo_Data\Release\w99683_demo.axf" - 0 Error(s), 0 Warning(s).
+Error: Target DLL has been cancelled. Debugger aborted !
+YSLIB\Lib\wblib.h(409): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID   sysDisableCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(412): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL sysGetCacheState(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(413): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT32 sysGetSdramSizebyMB(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(414): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID  sysInvalidCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(430): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID sysDisableAllPM_IRQ(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat_fat.h(234): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID fs_fat_init_sector_cache(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat_fat.h(235): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID fs_fat_debug_sector_cache(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat.h(519): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  fsInitFileSystem(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat.h(529): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern PDISK_T  *fsGetFullDiskInfomation(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat.h(611): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern UINT8 *fsAllocateSector(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat.h(620): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  fsFlushIOCache(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat.h(623): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID fs_enable_iow_cache(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat.h(624): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  fs_flush_iow_cache(VOID);
+..\jpegcodec.h(105): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  typedef BOOL (*PFN_JPEG_HEADERDECODE_CALLBACK)(VOID);
+..\jpegcodec.h(131): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT jpegOpen(VOID);
+..\jpegcodec.h(132): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID jpegClose(VOID);
+..\jpegcodec.h(133): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID jpegInit(VOID);
+..\jpegcodec.h(135): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL jpegIsReady(VOID);
+..\jpegcodec.h(147): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT jpegWait(VOID);
+..\..\..\lib\usb.h(765): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  InitUsbSystem(VOID);
+..\..\..\lib\usb.h(766): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  DeInitUsbSystem(VOID);
+..\..\..\lib\usb.h(767): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  UsbInitializeOHCI(VOID);
+..\..\..\lib\usb.h(768): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  UsbInitializeHCD(VOID);
+..\..\..\lib\usb.h(769): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  UsbReleaseHCD(VOID);
+..\..\..\lib\usb.h(773): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID  Hub_CheckIrqEvent(VOID);
+..\..\..\lib\usb.h(785): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID USB_ScanDevices(VOID);
+..\..\..\lib\usb.h(808): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  USB_InitHubDriver(VOID);
+..\..\..\lib\usb.h(809): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID USB_RemoveHubDriver(VOID);
+..\..\..\lib\usb.h(846): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  UMAS_InitUmasDriver(VOID);
+..\..\..\lib\usb.h(847): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID  UMAS_RemoveUmasDriver(VOID);
+..\..\..\lib\usb.h(869): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT    USB_available_memory(VOID);
+..\..\..\lib\usb.h(870): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT    USB_allocated_memory(VOID);
+..\usbvideo.h(83): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT   W99683Cam_StartDataPump(VOID);
+..\usbvideo.h(84): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID  W99683Cam_StopDataPump(VOID);
+..\usbvideo.h(85): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT   W99683Cam_IsStreaming(VOID);
+..\usbvideo.h(86): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT   W99683Cam_IsConnected(VOID);
+..\usbvideo.h(87): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT   W99683Cam_Open(VOID);
+..\usbvideo.h(88): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT   W99683Cam_Init(VOID);
+..\usbvideo.h(89): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID  W99683Cam_Exit(VOID);
+..\usbkbd.h(47): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  USBKeyboardInit(VOID);
+..\usbkbd.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\..\lib\w55fa93_gnand.h(109): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+      INT  (*chip_erase)(VOID);
+..\..\..\lib\spu.h(91): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID spuDacOff(VOID);
+..\..\..\lib\spu.h(93): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID spuStopPlay(VOID);
+..\..\..\lib\spu.h(96): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID spuClose (VOID);
+..\..\..\lib\spu.h(98): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID spuEqClose (VOID);
+..\main.c(138): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  W99683_HasImageQueued(VOID);
+..\main.c(191): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL JpegDecHeaderComplete(VOID)                  
+..\main.c(522): warning:  #550-D: variable "szFNameDst" was set but never used
+        UINT8           *pucBuff, *szFNameSrc, *szFNameDst;
+..\main.c(725): warning:  #260-D: explicit type is missing ("int" assumed)
+        volatile i=0x20000;
+..\main.c(921): warning:  #177-D: variable "szFileName" was declared but never referenced
+        CHAR szFileName[32] = {'C',0,':',0,'\\',0,'1',0,0,0 };
+..\main.c(922): warning:  #177-D: variable "szAsciiStr" was declared but never referenced
+        CHAR szAsciiStr[32]={0};
+..\main.c(923): warning:  #177-D: variable "suFileName" was declared but never referenced
+        CHAR suFileName[128];
+..\main.c(924): warning:  #177-D: variable "nIdx" was declared but never referenced
+        INT     nIdx = 0, nIdy=0;
+..\main.c(924): warning:  #177-D: variable "nIdy" was declared but never referenced
+        INT     nIdx = 0, nIdy=0;
+..\main.c(925): warning:  #177-D: variable "nJpegLen" was declared but never referenced
+        UINT32  nJpegLen= 256*1024;
+..\main.c(927): warning:  #177-D: variable "nWriteBytes" was declared but never referenced
+        INT     nWriteBytes;
+..\main.c(936): warning:  #550-D: variable "pSrc" was set but never used
+        unsigned char *pSrc,*pDst;
+..\main.c(936): warning:  #550-D: variable "pDst" was set but never used
+        unsigned char *pSrc,*pDst;
+..\main.c(1183): warning:  #177-D: variable "u32Item" was declared but never referenced
+        UINT32  u32Item, u32ExtFreq;
+..\main.c: 64 warnings, 0 errors
+linking...
+Program Size: Code=162208 RO-data=1856 RW-data=9376 ZI-data=10439904  
+After Build - User command #1: fromelf.exe --bin --output "D:\工具\MDK905-EK\MDK905-EK\MDK905-EK 1#2019.0A\CN\softpack\N32905_Non-OS_KEIL_No_Support\N32905_Non-OS_KEIL_320240\USB_Core\example\Integrate_Test\KEIL\w99683_demo_Data\Release\w99683_demo.bin" "D:\工具\MDK905-EK\MDK905-EK\MDK905-EK 1#2019.0A\CN\softpack\N32905_Non-OS_KEIL_No_Support\N32905_Non-OS_KEIL_320240\USB_Core\example\Integrate_Test\KEIL\w99683_demo_Data\Release\w99683_demo.axf"
+".\w99683_demo_Data\Release\w99683_demo.axf" - 0 Error(s), 64 Warning(s).
+ter list with a typedef is nonstandard
+  INT32         sysSetAIC2SWMode(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(409): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID   sysDisableCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(412): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL sysGetCacheState(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(413): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT32 sysGetSdramSizebyMB(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(414): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID  sysInvalidCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(430): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID sysDisableAllPM_IRQ(VOID);
+..\..\..\lib\usb.h(765): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  InitUsbSystem(VOID);
+..\..\..\lib\usb.h(766): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  DeInitUsbSystem(VOID);
+..\..\..\lib\usb.h(767): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  UsbInitializeOHCI(VOID);
+..\..\..\lib\usb.h(768): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  UsbInitializeHCD(VOID);
+..\..\..\lib\usb.h(769): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  UsbReleaseHCD(VOID);
+..\..\..\lib\usb.h(773): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID  Hub_CheckIrqEvent(VOID);
+..\..\..\lib\usb.h(785): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID USB_ScanDevices(VOID);
+..\..\..\lib\usb.h(808): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  USB_InitHubDriver(VOID);
+..\..\..\lib\usb.h(809): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID USB_RemoveHubDriver(VOID);
+..\..\..\lib\usb.h(846): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  UMAS_InitUmasDriver(VOID);
+..\..\..\lib\usb.h(847): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID  UMAS_RemoveUmasDriver(VOID);
+..\..\..\lib\usb.h(869): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT    USB_available_memory(VOID);
+..\..\..\lib\usb.h(870): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT    USB_allocated_memory(VOID);
+..\usbkbd.h(47): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  USBKeyboardInit(VOID);
+..\usbkbd.h(52): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\usb_keyboard.c: 24 warnings, 0 errors
+compiling W99683.c...
+..\..\..\..\SYSLIB\Lib\wblib.h(377): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT8          sysGetChar (VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(390): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL  sysGetIBitState(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(391): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  UINT32        sysGetInterruptEnableStatus(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(405): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT32         sysSetAIC2SWMode(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(409): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID   sysDisableCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(412): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL sysGetCacheState(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(413): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT32 sysGetSdramSizebyMB(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(414): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID  sysInvalidCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(430): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID sysDisableAllPM_IRQ(VOID);
+..\..\..\lib\usb.h(765): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  InitUsbSystem(VOID);
+..\..\..\lib\usb.h(766): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  DeInitUsbSystem(VOID);
+..\..\..\lib\usb.h(767): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  UsbInitializeOHCI(VOID);
+..\..\..\lib\usb.h(768): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  UsbInitializeHCD(VOID);
+..\..\..\lib\usb.h(769): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  UsbReleaseHCD(VOID);
+..\..\..\lib\usb.h(773): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID  Hub_CheckIrqEvent(VOID);
+..\..\..\lib\usb.h(785): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID USB_ScanDevices(VOID);
+..\..\..\lib\usb.h(808): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  USB_InitHubDriver(VOID);
+..\..\..\lib\usb.h(809): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID USB_RemoveHubDriver(VOID);
+..\..\..\lib\usb.h(846): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  UMAS_InitUmasDriver(VOID);
+..\..\..\lib\usb.h(847): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID  UMAS_RemoveUmasDriver(VOID);
+..\..\..\lib\usb.h(869): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT    USB_available_memory(VOID);
+..\..\..\lib\usb.h(870): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT    USB_allocated_memory(VOID);
+..\usbvideo.h(83): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT   W99683Cam_StartDataPump(VOID);
+..\usbvideo.h(84): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID  W99683Cam_StopDataPump(VOID);
+..\usbvideo.h(85): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT   W99683Cam_IsStreaming(VOID);
+..\usbvideo.h(86): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT   W99683Cam_IsConnected(VOID);
+..\usbvideo.h(87): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT   W99683Cam_Open(VOID);
+..\usbvideo.h(88): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT   W99683Cam_Init(VOID);
+..\usbvideo.h(89): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID  W99683Cam_Exit(VOID);
+..\W99683.c(283): warning:  #260-D: explicit type is missing ("int" assumed)
+          while ((volatile)_W99683_Camera->vbq_head == (volatile)_W99683_Camera->vbq_tail)
+..\W99683.c(283): warning:  #191-D: type qualifier is meaningless on cast type
+          while ((volatile)_W99683_Camera->vbq_head == (volatile)_W99683_Camera->vbq_tail)
+..\W99683.c(283): warning:  #260-D: explicit type is missing ("int" assumed)
+          while ((volatile)_W99683_Camera->vbq_head == (volatile)_W99683_Camera->vbq_tail)
+..\W99683.c(283): warning:  #191-D: type qualifier is meaningless on cast type
+          while ((volatile)_W99683_Camera->vbq_head == (volatile)_W99683_Camera->vbq_tail)
+..\W99683.c(272): warning:  #550-D: variable "t0" was set but never used
+      INT               t0;
+..\W99683.c(618): warning:  #550-D: variable "indexH" was set but never used
+      INT     indexH,indexL;
+..\W99683.c(1120): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT  W99683Cam_Init(VOID)
+..\W99683.c(1138): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID W99683Cam_Exit(VOID)
+..\W99683.c: 37 warnings, 0 errors
+assembling wb_init.s...
+..\wb_init.s(114): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+compiling jpegcodec.c...
+..\..\..\..\SYSLIB\Lib\wblib.h(377): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT8          sysGetChar (VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(390): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL  sysGetIBitState(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(391): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  UINT32        sysGetInterruptEnableStatus(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(405): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT32         sysSetAIC2SWMode(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(409): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID   sysDisableCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(412): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL sysGetCacheState(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(413): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT32 sysGetSdramSizebyMB(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(414): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID  sysInvalidCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(430): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID sysDisableAllPM_IRQ(VOID);
+..\jpegcodec.h(105): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  typedef BOOL (*PFN_JPEG_HEADERDECODE_CALLBACK)(VOID);
+..\jpegcodec.h(131): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT jpegOpen(VOID);
+..\jpegcodec.h(132): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID jpegClose(VOID);
+..\jpegcodec.h(133): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID jpegInit(VOID);
+..\jpegcodec.h(135): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL jpegIsReady(VOID);
+..\jpegcodec.h(147): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT jpegWait(VOID);
+..\jpeg.h(146): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID jpegEncodeTrigger(VOID);
+..\jpeg.h(147): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID jpegDecodeTrigger(VOID);
+..\jpegcodec.c(330): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT jpegWait(VOID)
+..\jpegcodec.c(345): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL jpegIsReady(VOID)
+..\jpegcodec.c(374): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT jpegOpen(VOID)
+..\jpegcodec.c(421): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID jpegInit(VOID)
+..\jpegcodec.c(532): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID jpegDecodeTrigger(VOID)
+..\jpegcodec.c(555): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID jpegEncodeTrigger(VOID)
+..\jpegcodec.c(1069): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID jpegClose(VOID)
+..\jpegcodec.c: 24 warnings, 0 errors
+compiling SpiFlashDiskDriver.c...
+..\..\..\..\NVTFAT\lib\nvtfat_fat.h(234): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID fs_fat_init_sector_cache(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat_fat.h(235): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID fs_fat_debug_sector_cache(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat.h(519): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  fsInitFileSystem(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat.h(529): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern PDISK_T  *fsGetFullDiskInfomation(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat.h(611): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern UINT8 *fsAllocateSector(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat.h(620): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  fsFlushIOCache(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat.h(623): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern VOID fs_enable_iow_cache(VOID);
+..\..\..\..\NVTFAT\lib\nvtfat.h(624): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  extern INT  fs_flush_iow_cache(VOID);
+..\SpiFlashDiskDriver.c: 8 warnings, 0 errors
+compiling W55FA93_VPOST.C...
+..\..\..\..\SYSLIB\Lib\wblib.h(377): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT8          sysGetChar (VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(390): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL  sysGetIBitState(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(391): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  UINT32        sysGetInterruptEnableStatus(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(405): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT32         sysSetAIC2SWMode(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(409): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID   sysDisableCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(412): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL sysGetCacheState(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(413): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT32 sysGetSdramSizebyMB(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(414): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID  sysInvalidCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(430): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID sysDisableAllPM_IRQ(VOID);
+..\vpost\W55FA93_VPOST.C(62): warning:  #223-D: function "vpostLCMInit_HANNSTAR_HSD043I9W1" declared implicitly
+        return vpostLCMInit_HANNSTAR_HSD043I9W1(plcdformatex, pFramebuf);
+..\vpost\W55FA93_VPOST.C(164): warning:  #223-D: function "vpostLCMDeinit_HANNSTAR_HSD043I9W1" declared implicitly
+        return vpostLCMDeinit_HANNSTAR_HSD043I9W1();
+..\vpost\W55FA93_VPOST.C: 11 warnings, 0 errors
+compiling W55FA93_VPOST_Driver.c...
+..\..\..\..\SYSLIB\Lib\wblib.h(377): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT8          sysGetChar (VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(390): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL  sysGetIBitState(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(391): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  UINT32        sysGetInterruptEnableStatus(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(405): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT32         sysSetAIC2SWMode(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(409): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID   sysDisableCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(412): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL sysGetCacheState(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(413): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT32 sysGetSdramSizebyMB(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(414): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID  sysInvalidCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(430): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID sysDisableAllPM_IRQ(VOID);
+..\vpost\W55FA93_VPOST_Driver.c(443): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  UINT16 vpostMPULCDReadData16Bit(VOID)                                                                         // LCD register data
+..\vpost\W55FA93_VPOST_Driver.c: 10 warnings, 0 errors
+compiling W55FA93_VPOST_HANNSTAR_HSD043I9W1.c...
+..\..\..\..\SYSLIB\Lib\wblib.h(377): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT8          sysGetChar (VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(390): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL  sysGetIBitState(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(391): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  UINT32        sysGetInterruptEnableStatus(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(405): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT32         sysSetAIC2SWMode(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(409): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID   sysDisableCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(412): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  BOOL sysGetCacheState(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(413): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT32 sysGetSdramSizebyMB(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(414): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID  sysInvalidCache(VOID);
+..\..\..\..\SYSLIB\Lib\wblib.h(430): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  VOID sysDisableAllPM_IRQ(VOID);
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(87): warning:  #940-D: missing return statement at end of non-void function "Clock_Control"
+  }
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(142): warning:  #223-D: function "vpostVAStopTrigger" declared implicitly
+        vpostVAStopTrigger();   
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(149): warning:  #223-D: function "vpostSetDataBusPin" declared implicitly
+        vpostSetDataBusPin(eDRVVPOST_DATA_18BITS);      
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(153): warning:  #223-D: function "vpostSetLCM_ImageSource" declared implicitly
+        vpostSetLCM_ImageSource(eDRVVPOST_FRAME_BUFFER);
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(156): warning:  #223-D: function "vpostSetLCM_TypeSelect" declared implicitly
+        vpostSetLCM_TypeSelect(eDRVVPOST_HIGH_RESOLUTINO_SYNC);
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(159): warning:  #223-D: function "vpostsetLCM_TimingType" declared implicitly
+        vpostsetLCM_TimingType(eDRVVPOST_ASYNC_TV);
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(166): warning:  #223-D: function "vpostSetParalelSyncLCM_Interface" declared implicitly
+      vpostSetParalelSyncLCM_Interface(eDRVVPOST_PRGB_18BITS);    
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(172): warning:  #223-D: function "vpostSetSyncLCM_HTiming" declared implicitly
+      vpostSetSyncLCM_HTiming(&sHTiming);
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(175): warning:  #223-D: function "vpostSetSyncLCM_VTiming" declared implicitly
+      vpostSetSyncLCM_VTiming(&sVTiming);
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(178): warning:  #223-D: function "vpostSetSyncLCM_ImageWindow" declared implicitly
+        vpostSetSyncLCM_ImageWindow(&sWindow);
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(181): warning:  #223-D: function "vpostSetSyncLCM_SignalPolarity" declared implicitly
+        vpostSetSyncLCM_SignalPolarity(&sPolarity);     
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(189): warning:  #223-D: function "vpostAllocVABufferFromAP" declared implicitly
+                vpostAllocVABufferFromAP(pFramebuf);
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(191): warning:  #223-D: function "vpostAllocVABuffer" declared implicitly
+        if( vpostAllocVABuffer(plcdformatex, nBytesPixel)==FALSE)
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(197): warning:  #223-D: function "vpostSetFrameBuffer_DataType" declared implicitly
+        vpostSetFrameBuffer_DataType(plcdformatex->ucVASrcFormat);
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(199): warning:  #223-D: function "vpostSetYUVEndianSelect" declared implicitly
+        vpostSetYUVEndianSelect(eDRVVPOST_YUV_LITTLE_ENDIAN);
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(202): warning:  #223-D: function "vpostVAStartTrigger" declared implicitly
+        vpostVAStartTrigger();
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(208): warning:  #494-D: declaring a void parameter list with a typedef is nonstandard
+  INT32 vpostLCMDeinit_HANNSTAR_HSD043I9W1(VOID)
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(210): warning:  #223-D: function "vpostVAStopTrigger" declared implicitly
+        vpostVAStopTrigger();
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(211): warning:  #223-D: function "vpostFreeVABuffer" declared implicitly
+        vpostFreeVABuffer();
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(46): warning:  #177-D: variable "g_nScreenWidth" was declared but never referenced
+  static UINT32 g_nScreenWidth;
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(47): warning:  #177-D: variable "g_nScreenHeight" was declared but never referenced
+  static UINT32 g_nScreenHeight;
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c(85): warning:  #177-D: function "Clock_Control" was declared but never referenced
+  static INT Clock_Control(void)
+..\vpost\W55FA93_VPOST_HANNSTAR_HSD043I9W1.c: 31 warnings, 0 errors
+compiling png.c...
+compiling pngerror.c...
+compiling pngget.c...
+compiling pngmem.c...
+compiling pngpread.c...
+compiling pngread.c...
+compiling pngrio.c...
+compiling pngrtran.c...
+compiling pngrutil.c...
+compiling pngset.c...
+compiling pngtrans.c...
+compiling pngwio.c...
+compiling pngwrite.c...
+compiling pngwtran.c...
+compiling pngwutil.c...
+compiling adler32.c...
+..\ZLIB\adler32.c(57): warning:  #1294-D: Old-style function adler32
+  uLong ZEXPORT adler32(adler, buf, len)
+..\ZLIB\adler32.c(128): warning:  #1294-D: Old-style function adler32_combine
+  uLong ZEXPORT adler32_combine(adler1, adler2, len2)
+..\ZLIB\adler32.c: 2 warnings, 0 errors
+compiling compress.c...
+..\ZLIB\compress.c(22): warning:  #1294-D: Old-style function compress2
+  int ZEXPORT compress2 (dest, destLen, source, sourceLen, level)
+..\ZLIB\compress.c(62): warning:  #1294-D: Old-style function compress
+  int ZEXPORT compress (dest, destLen, source, sourceLen)
+..\ZLIB\compress.c(75): warning:  #1294-D: Old-style function compressBound
+  uLong ZEXPORT compressBound (sourceLen)
+..\ZLIB\compress.c: 3 warnings, 0 errors
+compiling crc32.c...
+..\ZLIB\crc32.c(219): warning:  #1294-D: Old-style function crc32
+  unsigned long ZEXPORT crc32(crc, buf, len)
+..\ZLIB\crc32.c(242): warning:  #111-D: statement is unreachable
+      crc = crc ^ 0xffffffffUL;
+..\ZLIB\crc32.c(262): warning:  #1294-D: Old-style function crc32_little
+  local unsigned long crc32_little(crc, buf, len)
+..\ZLIB\crc32.c(302): warning:  #1294-D: Old-style function crc32_big
+  local unsigned long crc32_big(crc, buf, len)
+..\ZLIB\crc32.c(342): warning:  #1294-D: Old-style function gf2_matrix_times
+  local unsigned long gf2_matrix_times(mat, vec)
+..\ZLIB\crc32.c(359): warning:  #1294-D: Old-style function gf2_matrix_square
+  local void gf2_matrix_square(square, mat)
+..\ZLIB\crc32.c(370): warning:  #1294-D: Old-style function crc32_combine
+  uLong ZEXPORT crc32_combine(crc1, crc2, len2)
+..\ZLIB\crc32.c: 7 warnings, 0 errors
+compiling deflate.c...
+..\ZLIB\deflate.c(204): warning:  #1294-D: Old-style function deflateInit_
+  int ZEXPORT deflateInit_(strm, level, version, stream_size)
+..\ZLIB\deflate.c(216): warning:  #1294-D: Old-style function deflateInit2_
+  int ZEXPORT deflateInit2_(strm, level, method, windowBits, memLevel, strategy,
+..\ZLIB\deflate.c(315): warning:  #1294-D: Old-style function deflateSetDictionary
+  int ZEXPORT deflateSetDictionary (strm, dictionary, dictLength)
+..\ZLIB\deflate.c(357): warning:  #1294-D: Old-style function deflateReset
+  int ZEXPORT deflateReset (strm)
+..\ZLIB\deflate.c(393): warning:  #1294-D: Old-style function deflateSetHeader
+  int ZEXPORT deflateSetHeader (strm, head)
+..\ZLIB\deflate.c(404): warning:  #1294-D: Old-style function deflatePrime
+  int ZEXPORT deflatePrime (strm, bits, value)
+..\ZLIB\deflate.c(416): warning:  #1294-D: Old-style function deflateParams
+  int ZEXPORT deflateParams(strm, level, strategy)
+..\ZLIB\deflate.c(454): warning:  #1294-D: Old-style function deflateTune
+  int ZEXPORT deflateTune(strm, good_length, max_lazy, nice_length, max_chain)
+..\ZLIB\deflate.c(489): warning:  #1294-D: Old-style function deflateBound
+  uLong ZEXPORT deflateBound(strm, sourceLen)
+..\ZLIB\deflate.c(518): warning:  #1294-D: Old-style function putShortMSB
+  local void putShortMSB (s, b)
+..\ZLIB\deflate.c(532): warning:  #1294-D: Old-style function flush_pending
+  local void flush_pending(strm)
+..\ZLIB\deflate.c(552): warning:  #1294-D: Old-style function deflate
+  int ZEXPORT deflate (strm, flush)
+..\ZLIB\deflate.c(859): warning:  #1294-D: Old-style function deflateEnd
+  int ZEXPORT deflateEnd (strm)
+..\ZLIB\deflate.c(894): warning:  #1294-D: Old-style function deflateCopy
+  int ZEXPORT deflateCopy (dest, source)
+..\ZLIB\deflate.c(956): warning:  #1294-D: Old-style function read_buf
+  local int read_buf(strm, buf, size)
+..\ZLIB\deflate.c(986): warning:  #1294-D: Old-style function lm_init
+  local void lm_init (s)
+..\ZLIB\deflate.c(1027): warning:  #1294-D: Old-style function longest_match
+  local uInt longest_match(s, cur_match)
+..\ZLIB\deflate.c(1175): warning:  #1294-D: Old-style function longest_match_fast
+  local uInt longest_match_fast(s, cur_match)
+..\ZLIB\deflate.c(1266): warning:  #1294-D: Old-style function fill_window
+  local void fill_window(s)
+..\ZLIB\deflate.c(1390): warning:  #1294-D: Old-style function deflate_stored
+  local block_state deflate_stored(s, flush)
+..\ZLIB\deflate.c(1448): warning:  #1294-D: Old-style function deflate_fast
+  local block_state deflate_fast(s, flush)
+..\ZLIB\deflate.c(1554): warning:  #1294-D: Old-style function deflate_slow
+  local block_state deflate_slow(s, flush)
+..\ZLIB\deflate.c: 22 warnings, 0 errors
+compiling infback.c...
+..\ZLIB\infback.c(28): warning:  #1294-D: Old-style function inflateBackInit_
+  int ZEXPORT inflateBackInit_(strm, windowBits, window, version, stream_size)
+..\ZLIB\infback.c(73): warning:  #1294-D: Old-style function fixedtables
+  local void fixedtables(state)
+..\ZLIB\infback.c(241): warning:  #1294-D: Old-style function inflateBack
+  int ZEXPORT inflateBack(strm, in, in_desc, out, out_desc)
+..\ZLIB\infback.c(614): warning:  #1294-D: Old-style function inflateBackEnd
+  int ZEXPORT inflateBackEnd(strm)
+..\ZLIB\infback.c: 4 warnings, 0 errors
+compiling inffast.c...
+..\ZLIB\inffast.c(67): warning:  #1294-D: Old-style function inflate_fast
+  void inflate_fast(strm, start)
+..\ZLIB\inffast.c: 1 warning, 0 errors
+compiling inflate.c...
+..\ZLIB\inflate.c(103): warning:  #1294-D: Old-style function inflateReset
+  int ZEXPORT inflateReset(strm)
+..\ZLIB\inflate.c(128): warning:  #1294-D: Old-style function inflatePrime
+  int ZEXPORT inflatePrime(strm, bits, value)
+..\ZLIB\inflate.c(144): warning:  #1294-D: Old-style function inflateInit2_
+  int ZEXPORT inflateInit2_(strm, windowBits, version, stream_size)
+..\ZLIB\inflate.c(187): warning:  #1294-D: Old-style function inflateInit_
+  int ZEXPORT inflateInit_(strm, version, stream_size)
+..\ZLIB\inflate.c(205): warning:  #1294-D: Old-style function fixedtables
+  local void fixedtables(state)
+..\ZLIB\inflate.c(323): warning:  #1294-D: Old-style function updatewindow
+  local int updatewindow(strm, out)
+..\ZLIB\inflate.c(554): warning:  #1294-D: Old-style function inflate
+  int ZEXPORT inflate(strm, flush)
+..\ZLIB\inflate.c(1155): warning:  #1294-D: Old-style function inflateEnd
+  int ZEXPORT inflateEnd(strm)
+..\ZLIB\inflate.c(1169): warning:  #1294-D: Old-style function inflateSetDictionary
+  int ZEXPORT inflateSetDictionary(strm, dictionary, dictLength)
+..\ZLIB\inflate.c(1211): warning:  #1294-D: Old-style function inflateGetHeader
+  int ZEXPORT inflateGetHeader(strm, head)
+..\ZLIB\inflate.c(1239): warning:  #1294-D: Old-style function syncsearch
+  local unsigned syncsearch(have, buf, len)
+..\ZLIB\inflate.c(1262): warning:  #1294-D: Old-style function inflateSync
+  int ZEXPORT inflateSync(strm)
+..\ZLIB\inflate.c(1313): warning:  #1294-D: Old-style function inflateSyncPoint
+  int ZEXPORT inflateSyncPoint(strm)
+..\ZLIB\inflate.c(1323): warning:  #1294-D: Old-style function inflateCopy
+  int ZEXPORT inflateCopy(dest, source)
+..\ZLIB\inflate.c: 14 warnings, 0 errors
+compiling inftrees.c...
+..\ZLIB\inftrees.c(32): warning:  #1294-D: Old-style function inflate_table
+  int inflate_table(type, lens, codes, table, bits, work)
+..\ZLIB\inftrees.c: 1 warning, 0 errors
+compiling trees.c...
+..\ZLIB\trees.c(382): warning:  #1294-D: Old-style function _tr_init
+  void _tr_init(s)
+..\ZLIB\trees.c(411): warning:  #1294-D: Old-style function init_block
+  local void init_block(s)
+..\ZLIB\trees.c(455): warning:  #1294-D: Old-style function pqdownheap
+  local void pqdownheap(s, tree, k)
+..\ZLIB\trees.c(490): warning:  #1294-D: Old-style function gen_bitlen
+  local void gen_bitlen(s, desc)
+..\ZLIB\trees.c(577): warning:  #1294-D: Old-style function gen_codes
+  local void gen_codes (tree, max_code, bl_count)
+..\ZLIB\trees.c(619): warning:  #1294-D: Old-style function build_tree
+  local void build_tree(s, desc)
+..\ZLIB\trees.c(707): warning:  #1294-D: Old-style function scan_tree
+  local void scan_tree (s, tree, max_code)
+..\ZLIB\trees.c(752): warning:  #1294-D: Old-style function send_tree
+  local void send_tree (s, tree, max_code)
+..\ZLIB\trees.c(803): warning:  #1294-D: Old-style function build_bl_tree
+  local int build_bl_tree(s)
+..\ZLIB\trees.c(838): warning:  #1294-D: Old-style function send_all_trees
+  local void send_all_trees(s, lcodes, dcodes, blcodes)
+..\ZLIB\trees.c(867): warning:  #1294-D: Old-style function _tr_stored_block
+  void _tr_stored_block(s, buf, stored_len, eof)
+..\ZLIB\trees.c(892): warning:  #1294-D: Old-style function _tr_align
+  void _tr_align(s)
+..\ZLIB\trees.c(921): warning:  #1294-D: Old-style function _tr_flush_block
+  void _tr_flush_block(s, buf, stored_len, eof)
+..\ZLIB\trees.c(1022): warning:  #1294-D: Old-style function _tr_tally
+  int _tr_tally (s, dist, lc)
+..\ZLIB\trees.c(1072): warning:  #1294-D: Old-style function compress_block
+  local void compress_block(s, ltree, dtree)
+..\ZLIB\trees.c(1126): warning:  #1294-D: Old-style function set_data_type
+  local void set_data_type(s)
+..\ZLIB\trees.c(1146): warning:  #1294-D: Old-style function bi_reverse
+  local unsigned bi_reverse(code, len)
+..\ZLIB\trees.c(1161): warning:  #1294-D: Old-style function bi_flush
+  local void bi_flush(s)
+..\ZLIB\trees.c(1178): warning:  #1294-D: Old-style function bi_windup
+  local void bi_windup(s)
+..\ZLIB\trees.c(1197): warning:  #1294-D: Old-style function copy_block
+  local void copy_block(s, buf, len, header)
+..\ZLIB\trees.c: 20 warnings, 0 errors
+compiling uncompr.c...
+..\ZLIB\uncompr.c(26): warning:  #1294-D: Old-style function uncompress
+  int ZEXPORT uncompress (dest, destLen, source, sourceLen)
+..\ZLIB\uncompr.c: 1 warning, 0 errors
+compiling zutil.c...
+..\ZLIB\zutil.c(133): warning:  #1294-D: Old-style function zError
+  const char * ZEXPORT zError(err)
+..\ZLIB\zutil.c(300): warning:  #1294-D: Old-style function zcalloc
+  voidpf zcalloc (opaque, items, size)
+..\ZLIB\zutil.c(310): warning:  #1294-D: Old-style function zcfree
+  void  zcfree (opaque, ptr)
+..\ZLIB\zutil.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=171276 RO-data=1868 RW-data=10496 ZI-data=10429956  
+After Build - User command #1: fromelf.exe --bin --output "D:\工具\MDK905-EK\MDK905-EK\MDK905-EK 1#2019.0A\CN\softpack\N32905_Non-OS_KEIL_No_Support\N32905_Non-OS_KEIL_320240\USB_Core\example\Integrate_Test\KEIL\w99683_demo_Data\Release\w99683_demo.bin" "D:\工具\MDK905-EK\MDK905-EK\MDK905-EK 1#2019.0A\CN\softpack\N32905_Non-OS_KEIL_No_Support\N32905_Non-OS_KEIL_320240\USB_Core\example\Integrate_Test\KEIL\w99683_demo_Data\Release\w99683_demo.axf"
+".\w99683_demo_Data\Release\w99683_demo.axf" - 0 Error(s), 288 Warning(s).
+40\USB_Core\example\Integrate_Test\KEIL\w99683_demo_Data\Release\w99683_demo.axf"
+".\w99683_demo_Data\Release\w99683_demo.axf" - 0 Error(s), 289 Warning(s).
+Release\w99683_demo.axf: Error: L6200E: Symbol usiWriteDisable multiply defined (by spiflash.o and spiflash.o).
+.\w99683_demo_Data\Release\w99683_demo.axf: Error: L6200E: Symbol usiReadID multiply defined (by spiflash.o and spiflash.o).
+.\w99683_demo_Data\Release\w99683_demo.axf: Error: L6200E: Symbol usiStatusWrite multiply defined (by spiflash.o and spiflash.o).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 5 error messages.
+".\w99683_demo_Data\Release\w99683_demo.axf" - 5 Error(s), 293 Warning(s).
+Target not created
+ages.
+".\w99683_demo_Data\Release\w99683_demo.axf" - 5 Error(s), 294 Warning(s).
+Target not created

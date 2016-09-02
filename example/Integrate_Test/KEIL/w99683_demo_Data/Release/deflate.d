@@ -1,0 +1,9 @@
+.\w99683_demo_data\release\deflate.o: ..\ZLIB\deflate.c
+.\w99683_demo_data\release\deflate.o: ..\ZLIB\deflate.h
+.\w99683_demo_data\release\deflate.o: ..\ZLIB\zutil.h
+.\w99683_demo_data\release\deflate.o: ..\ZLIB\zlib.h
+.\w99683_demo_data\release\deflate.o: ..\ZLIB\zconf.h
+.\w99683_demo_data\release\deflate.o: d:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\w99683_demo_data\release\deflate.o: d:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\w99683_demo_data\release\deflate.o: d:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\w99683_demo_data\release\deflate.o: d:\Keil\ARM\ARMCC\bin\..\include\errno.h
